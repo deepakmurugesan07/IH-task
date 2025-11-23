@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Deepak",
+    "email": "deepak@example.com",
+    "phone": "9876543210",
+    "website": "deepak.com",
+    "company": { "name": "Deepak Solutions" }
+  },
+  {
+    "id": 2,
+    "name": "Sambath",
+    "email": "deepak@example.com",
+    "phone": "9123456780",
+    "website": "sambath.org",
+    "company": { "name": "Sambath Technologies" }
+  },
+  {
+    "id": 3,
+    "name": "Vignesh",
+    "email": "deepak@example.com",
+    "phone": "9012345678",
+    "website": "vignesh.net",
+    "company": { "name": "Vignesh Enterprises" }
+  }
+]

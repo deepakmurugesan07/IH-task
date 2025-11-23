@@ -1,0 +1,252 @@
+/* General */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  color: #1f2937;
+}
+
+/* Navbar */
+/* Navbar */
+.navbar {
+  background: #1e3a8a; /* Dark Blue base */
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Navbar name gradient */
+.navbar-name {
+  background: linear-gradient(90deg, #3b82f6, #6366f1); /* blue → purple */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* Navbar h1 normal text */
+.navbar h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Navbar link */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Users Grid */
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 24px;
+}
+
+/* User Card */
+/* User Card */
+.user-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.user-card:hover {
+  background: #e0f2fe;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.user-card h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.user-card p {
+  font-size: 16px;
+  color: #4b5563;
+  margin: 2px 0;
+}
+
+
+/* User Detail Page */
+.user-detail {
+  padding: 24px;
+}
+
+.user-info {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.user-info h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.user-info p {
+  font-size: 16px;
+  color: #4b5563;
+  margin: 4px 0;
+}
+
+/* Add Post Section */
+.add-post {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.add-post input, 
+.add-post textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+}
+
+.add-post input:focus,
+.add-post textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 4px rgba(59,130,246,0.5);
+}
+
+.add-post button {
+  background: #3b82f6;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-post button:hover {
+  background: #2563eb;
+}
+
+/* Post Card */
+.post-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+}
+
+.post-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.post-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.post-card p {
+  font-size: 16px;
+  color: #4b5563;
+  margin-bottom: 8px;
+}
+
+.post-card button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.post-card .edit-btn {
+  background: #fbbf24;
+  color: white;
+}
+
+.post-card .edit-btn:hover {
+  background: #f59e0b;
+}
+
+.post-card .delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.post-card .delete-btn:hover {
+  background: #dc2626;
+}
+
+.post-card .save-btn {
+  background: #10b981;
+  color: white;
+}
+
+.post-card .save-btn:hover {
+  background: #059669;
+}
+
+.post-card .cancel-btn {
+  background: #9ca3af;
+  color: white;
+}
+
+.post-card .cancel-btn:hover {
+  background: #6b7280;
+}
+
+.load-more-btn {
+  background: #6b7280; /* gray */
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: all 0.3s ease;
+}
+
+.load-more-btn:hover {
+  background: #4b5563;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .users-grid {
+    grid-template-columns: 1fr;
+  }
+}

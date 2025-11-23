@@ -1,0 +1,14 @@
+[
+  { "id": 1, "userId": 1, "title": "Deepak Post 1", "body": "This is the first post by Deepak." },
+  { "id": 2, "userId": 1, "title": "Deepak Post 2", "body": "Second post by Deepak." },
+  { "id": 3, "userId": 1, "title": "Deepak Post 3", "body": "Third post by Deepak." },
+
+  { "id": 4, "userId": 2, "title": "Sambath Post 1", "body": "First post by Sambath." },
+  { "id": 5, "userId": 2, "title": "Sambath Post 2", "body": "Second post by Sambath." },
+  { "id": 6, "userId": 2, "title": "Sambath Post 3", "body": "Third post by Sambath." },
+
+  { "id": 7, "userId": 3, "title": "Vignesh Post 1", "body": "First post by Vignesh." },
+  { "id": 8, "userId": 3, "title": "Vignesh Post 2", "body": "Second post by Vignesh." },
+  { "id": 9, "userId": 3, "title": "Vignesh Post 3", "body": "Third post by Vignesh." },
+  { "id": 10, "userId": 3, "title": "Vignesh Post 4", "body": "Fourth post by Vignesh." }
+]
